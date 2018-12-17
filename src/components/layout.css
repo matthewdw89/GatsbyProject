@@ -1,0 +1,58 @@
+html {
+  font-family: sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header .header__logo {
+  font-size: 1.5rem;
+}
+
+.header .header__logo a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.menu .menu__list {
+  min-width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  background-color: cornflowerblue;
+}
+
+.menu .menu__list li {
+  list-style-type: none;
+}
+
+.menu .menu__list li a {
+  text-decoration: none;
+  color: white;
+}
+
+@media only screen and (max-width: 480px) {
+  html {
+    font-size: 100%;
+  }
+}
+/*# sourceMappingURL=layout.css.map */
