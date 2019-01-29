@@ -1,0 +1,17 @@
+@mixin button {
+  margin-right: 40px;
+  background: cornflowerblue;
+  color: white;
+  padding: 5px 22px;
+  border-radius: 20px;
+  border: 2px solid transparent;
+  cursor: pointer;
+  transition: all 0.5s;
+  &:hover{
+    border: 2px solid cornflowerblue;
+    background-color: white;
+    color: cornflowerblue;
+  }
+}
+
+
