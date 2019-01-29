@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React from 'react';
 // import { Link } from 'gatsby';
 
@@ -26,3 +27,23 @@ const IndexPage = () => (
 )
 
 export default IndexPage
+||||||| merged common ancestors
+=======
+import React from 'react'
+import { Link } from 'gatsby'
+
+import Layout from '../components/layout'
+import SEO from '../components/seo'
+
+const IndexPage = () => (
+  <Layout>
+    <SEO title="Home" keywords={['Ophthalmology', 'eye doctor', 'glaucoma', 'vitreoretinal surgery']} />
+    <h1>Hi people</h1>
+    <p>Welcome to your new Gatsby site.</p>
+    <p>Now go build something great.</p>
+    <Link to="/contact/">Go to page 2</Link>
+  </Layout>
+)
+
+export default IndexPage
+>>>>>>> a181bcad6115774aebca10ede6ebc07579bcefeb
